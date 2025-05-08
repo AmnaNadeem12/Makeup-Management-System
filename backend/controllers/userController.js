@@ -69,10 +69,31 @@ const deleteUser = async (req, res) => {
     res.status(500).json({ error: 'Failed to delete user' });
   }
 };
+// Check if user exists by username
+const checkUserExists = async (req, res) => {
+  const { username } = req.body;
+
+  try {
+    const pool = await poolPromise;
+    const result = await pool.request()
+      .input('username', sql.VarChar, username)
+      .query('SELECT * FROM Users WHERE username = @username');
+
+    if (result.recordset.length > 0) {
+      res.status(200).json({ exists: true });
+    } else {
+      res.status(200).json({ exists: false });
+    }
+  } catch (err) {
+    console.error('Error checking user:', err);
+    res.status(500).json({ error: 'Failed to check user' });
+  }
+};
 
 module.exports = {
   getAllUsers,
   insertUser,
   updateUser,
-  deleteUser
+  deleteUser,
+  checkUserExists, 
 };

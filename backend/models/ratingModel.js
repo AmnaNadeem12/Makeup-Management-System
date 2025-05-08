@@ -86,16 +86,13 @@ const Rating = {
   },
 
   // Get product ratings and reviews (All products)
-  async getProductRatingsAndReviews() {
-    const pool = await poolPromise;
-    const result = await pool.request().query(
-      `SELECT R.rating_id, U.username, P.name AS product_name, R.rating, R.review
-       FROM Rating AS R
-       JOIN Users U ON R.user_id = U.user_id
-       JOIN Product P ON R.product_id = P.product_id`
-    );
-    return result.recordset;
-  },
+// Get product ratings and reviews (All products)
+async getProductRatingsAndReviews() {
+  const pool = await poolPromise;
+  const result = await pool.request().execute('GetProductRatingsAndReviews'); // ✅ use stored procedure
+  return result.recordset;
+}
+,
 
   // Get recommendations for a user
   async getRecommendations(user_id) {

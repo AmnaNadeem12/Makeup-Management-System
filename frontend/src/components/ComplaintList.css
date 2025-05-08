@@ -1,0 +1,93 @@
+/* ComplaintList.css - pastel soft card UI */
+
+.complaints-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff0f5;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(248, 190, 210, 0.2);
+  }
+  
+  .complaints-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #4b2f36;
+    margin-bottom: 25px;
+  }
+  
+  .complaints-form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .complaints-form input {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #f5c0cf;
+    background: white;
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  .complaints-form button {
+    background-color: #f3aebe;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .complaints-form button:hover {
+    background-color: #ec8fa6;
+  }
+  
+  .complaints-error {
+    text-align: center;
+    color: #c0392b;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .complaints-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .complaint-card {
+    background: #fde5ec;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(239, 160, 180, 0.15);
+  }
+  
+  .complaint-desc {
+    color: #5b3740;
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+  
+  .complaint-status {
+    font-size: 0.95rem;
+    font-weight: bold;
+  }
+  
+  .complaint-status.pending {
+    color: #c37d00;
+  }
+  
+  .complaint-status.resolved {
+    color: #2e8b57;
+  }
+  
+  .complaint-status.rejected {
+    color: #c0392b;
+  }
+  

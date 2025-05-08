@@ -1,0 +1,60 @@
+/* SupplierList.css - pastel aesthetic for supplier table */
+
+.supplier-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff1f6;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(248, 190, 210, 0.2);
+  }
+  
+  .supplier-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #4b2f36;
+    margin-bottom: 25px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .supplier-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fde5ec;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .supplier-table th,
+  .supplier-table td {
+    padding: 14px 18px;
+    text-align: left;
+    color: #4b2f36;
+  }
+  
+  .supplier-table th {
+    background-color: #f3aebe;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .supplier-table tr:nth-child(even) {
+    background-color: #fdf2f5;
+  }
+  
+  .supplier-table tr:hover {
+    background-color: #fce4ec;
+  }
+  
+  .loading,
+  .error,
+  .empty-msg {
+    text-align: center;
+    color: #a05260;
+    margin-top: 20px;
+    font-weight: 500;
+  }
+  

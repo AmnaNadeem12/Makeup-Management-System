@@ -1,0 +1,83 @@
+.home-container {
+    background: url('/Pink.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .home-container::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for contrast */
+    z-index: 0;
+  }
+  
+  .home-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(248, 190, 210, 0.4);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    color: #c24466;
+    margin-bottom: 10px;
+  }
+  
+  .home-subtitle {
+    font-size: 1rem;
+    color: #5b3a42;
+    margin-bottom: 30px;
+  }
+  
+  .login-box,
+  .register-box,
+  .admin-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .login-box input,
+  .register-box input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #f3b5c5;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #f3aebe;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ea91a9;
+  }
+  
+  .register-info {
+    color: #a05260;
+    font-size: 0.95rem;
+  }
+  

@@ -1,0 +1,43 @@
+/* CartList.css - Pastel-themed cart */
+
+.cart-container {
+    background-color: #fff0f5;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(248, 190, 210, 0.2);
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  
+  .cart-title {
+    text-align: center;
+    color: #4b2f36;
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    color: #9f5a6b;
+    font-size: 1.1rem;
+  }
+  
+  .cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .cart-item {
+    background-color: #fde5ec;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(239, 160, 180, 0.15);
+  }
+  
+  .cart-detail {
+    font-size: 1rem;
+    color: #5b3740;
+    margin: 4px 0;
+  }
+  

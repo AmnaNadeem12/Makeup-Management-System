@@ -1,0 +1,46 @@
+.deal-list-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+    overflow-x: auto;
+    background-color: #fff0f4;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(255, 192, 203, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.deal-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.deal-table th,
+.deal-table td {
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.deal-table th {
+    background-color: #ffe3ec;
+    color: #4a2c2a;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.deal-table td {
+    font-size: 15px;
+    color: #333;
+}
+
+.deal-table tr:hover {
+    background-color: #fff7fa;
+    transition: background-color 0.3s ease;
+}

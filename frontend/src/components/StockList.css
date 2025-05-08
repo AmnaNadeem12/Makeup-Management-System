@@ -1,0 +1,58 @@
+/* StockList.css */
+
+.stock-container {
+    background-color: #fff0f5;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 20px;
+    max-width: 1000px;
+    box-shadow: 0 6px 20px rgba(255, 192, 203, 0.2);
+  }
+  
+  .stock-title {
+    text-align: center;
+    color: #4b2f36;
+    margin-bottom: 25px;
+    font-size: 2rem;
+  }
+  
+  .stock-empty {
+    text-align: center;
+    color: #a05260;
+    font-weight: 500;
+  }
+  
+  .stock-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fde6ee;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .stock-table th,
+  .stock-table td {
+    padding: 14px 18px;
+    text-align: left;
+    color: #4b2f36;
+    font-size: 1rem;
+  }
+  
+  .stock-table th {
+    background-color: #f3aebe;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .stock-table tr:nth-child(even) {
+    background-color: #fdf2f6;
+  }
+  
+  .stock-table tr:hover {
+    background-color: #fbe3ec;
+  }
+  

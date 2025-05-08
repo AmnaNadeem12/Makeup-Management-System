@@ -1,0 +1,98 @@
+.rating-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff6f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rating-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a05262;
+  }
+  
+  .rating-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating-form-container label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .rating-form-container input,
+  .rating-form-container textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .rating-form-container button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #a05262;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .rating-form-container .success-msg {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .rating-form-container .error-msg {
+    color: red;
+    margin-top: 10px;
+  }
+
+
+
+  .ratings-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .ratings-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a05262;
+  }
+  
+  .ratings-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ratings-table th,
+  .ratings-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ratings-table th {
+    background-color: #f0e6e8;
+    color: #a05262;
+    font-weight: bold;
+  }
+  
+  .ratings-table tr:hover {
+    background-color: #fdf1f2;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

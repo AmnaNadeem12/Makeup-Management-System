@@ -13,5 +13,7 @@ router.put('/:id', usersController.updateUser);
 
 // Route to delete a user
 router.delete('/:id', usersController.deleteUser);
+// Route to check if user exists
+router.post('/check-user', usersController.checkUserExists);
 
 module.exports = router;

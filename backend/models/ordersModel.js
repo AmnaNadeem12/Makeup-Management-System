@@ -1,17 +1,25 @@
 const { sql, poolPromise } = require('../config/db');
 
-// Existing: Place Order
 const placeOrder = async (user_id) => {
-  try {
-    const pool = await poolPromise;
-    const result = await pool.request()
-      .input('user_id', sql.Int, user_id)
-      .execute('PlaceOrder');
-    return result.recordset;
-  } catch (error) {
-    throw error;
-  }
+  const pool = await poolPromise;
+  const result = await pool.request()
+    .input('user_id', sql.Int, user_id)
+    .execute('PlaceOrder');
+
+  console.log('Raw SQL Result:', result);
+
+  const orderDetails = result.recordsets[0];
+  const totalAmount = result.recordsets[1]?.[0]?.totalAmount || 0;
+
+  console.log('Order Details:', orderDetails);
+  console.log('Total Amount:', totalAmount);
+
+  return {
+    details: orderDetails,
+    totalAmount
+  };
 };
+
 
 const cancelOrder = async (user_id, order_id) => {
   try {

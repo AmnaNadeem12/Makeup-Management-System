@@ -1,0 +1,52 @@
+.user-list-container {
+    background-color: #fff1f6;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(248, 190, 210, 0.2);
+  }
+  
+  .user-list-title {
+    text-align: center;
+    color: #4b2f36;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .empty-message {
+    text-align: center;
+    font-weight: 500;
+    color: #a05260;
+  }
+  
+  .user-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fde6ee;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 0.95rem;
+    color: #4b2f36;
+  }
+  
+  .user-table th {
+    background-color: #f3aebe;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #fdf2f6;
+  }
+  

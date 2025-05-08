@@ -227,6 +227,6 @@ const getProductRecommendations = async (req, res) => {
     getProductsWithPromotions,
     getProductRatingsAndReviews,
     getStockAlerts,
-    getProductRecommendations     // ✅ Add this line
+    getProductRecommendations    
   };
   

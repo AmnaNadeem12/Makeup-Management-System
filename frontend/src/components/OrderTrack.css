@@ -1,0 +1,78 @@
+.order-track-container {
+    background-color: #fff1f6;
+    padding: 35px;
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 8px 18px rgba(248, 190, 210, 0.2);
+  }
+  
+  .order-track-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #4b2f36;
+    margin-bottom: 25px;
+  }
+  
+  .track-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .track-form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #f4cbd9;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #4b2f36;
+  }
+  
+  .track-form button {
+    background-color: #f3aebe;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .track-form button:hover {
+    background-color: #ea91a9;
+  }
+  
+  .track-error {
+    color: #a94442;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .order-track-list {
+    list-style: none;
+    padding-left: 0;
+    color: #4b2f36;
+  }
+  
+  .order-track-list li {
+    background-color: #fde5ec;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(248, 190, 210, 0.15);
+  }
+  
+  .order-track-list .status {
+    font-weight: 500;
+  }
+  
+  .order-track-list .highlight {
+    color: #c24466;
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,62 @@
+/* Pastel Pink Theme for ClientDashboard */
+
+body {
+    background-color: #fcefee; /* Soft pink background */
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff7f9; /* Light nude-pink card */
+    border-radius: 24px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #3b2c35; /* Rose brown text */
+    font-weight: 600;
+  }
+  
+  .dashboard-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .dashboard-tab {
+    background-color: #f9dfe8; /* Nude-pink tab */
+    color: #5a3f46;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .dashboard-tab:hover {
+    background-color: #f5cdd9;
+    color: #2e1c24;
+  }
+  
+  .dashboard-tab.active {
+    background-color: #f6b7c8; /* Deeper pink for active */
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(246, 183, 200, 0.5);
+  }
+  
+  .dashboard-content {
+    margin-top: 30px;
+  }
+  

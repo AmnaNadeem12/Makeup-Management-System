@@ -1,0 +1,110 @@
+.order-form-container {
+    background-color: #fff1f6;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(246, 183, 200, 0.2);
+  }
+  
+  .order-title {
+    text-align: center;
+    font-size: 1.9rem;
+    color: #4b2f36;
+    margin-bottom: 25px;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #f3c0cf;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #4b2f36;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .button-group button {
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .button-group button:hover {
+    opacity: 0.9;
+  }
+  
+  button {
+    background-color: #f3aebe;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #d88d9a;
+  }
+  
+  .form-message {
+    text-align: center;
+    color: #6b3a42;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  .order-details {
+    margin-top: 30px;
+  }
+  
+  .order-details h4 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #4b2f36;
+  }
+  
+  .order-details table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fde5ec;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .order-details th,
+  .order-details td {
+    padding: 12px 14px;
+    text-align: left;
+    color: #4b2f36;
+    font-size: 0.95rem;
+  }
+  
+  .order-details th {
+    background-color: #f3aebe;
+    color: white;
+  }
+  
+  .order-details tr:nth-child(even) {
+    background-color: #fdf2f5;
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #4b2f36;
+  }
+  

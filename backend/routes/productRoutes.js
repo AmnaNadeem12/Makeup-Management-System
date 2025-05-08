@@ -36,7 +36,7 @@ router.get('/top-rated', getTopRatedProducts);
 // Top-rated products by category
 router.get('/top-rated/:category', getTopRatedByCategory);
 
-// Get a product by ID (⚠️ keep after more specific GET routes)
+// Get a product by ID 
 router.get('/:id', getProductById);
 
 // General product routes
